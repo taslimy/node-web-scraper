@@ -119,3 +119,15 @@ const URLS = [
 //   } catch(error) {
 //     console.log(error)
 //   }
+
+// attach a proxy server.
+
+// const request = require("request-promise").defaults({
+//   proxy: "http://username:password@ip:port"
+// });
+
+// (async () => {
+//   let res = await request("https://httpbin.org/ip");
+
+//   debugger;
+// })();
